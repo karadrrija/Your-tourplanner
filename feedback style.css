@@ -1,0 +1,106 @@
+@import url('https: //fonts.googleapis.com/css2?family=Poppins: wght@400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Poppins',sans-serif;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 600px;
+	height: 800px;
+	background-image: url(sunset.jpg);
+	background-size: cover;
+	opacity: 10.0;
+
+}
+.container form{
+	width: 100%;
+	text-align: center;
+	padding: 25px 20px;
+	padding-top: 120px;
+}
+form h1{
+	padding: 20px;
+	color: gold;
+}
+form.id{
+	position: relative;
+}
+
+
+form input{
+	width: 100%;
+	height: 50px;
+	margin: 4px 0;
+	padding-right: 10px;
+ 
+ background: floralwhite;
+ padding: 0 15x;
+ font-size: 20px;
+}
+form textarea{
+	padding: 5px 15px;
+	width: 100%;
+	height: 250px;
+	margin: 4px 0;
+	
+ 
+ background: floralwhite;
+ padding: 0 15x;
+ font-size: 20px;
+}
+form button{
+	margin-top: 5px;
+	border: none;
+	background: skyblue;
+	padding: 10px 0;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400;
+}
+section{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+padding: 0;
+	background: floralwhite;
+}
+.container2
+{
+	flex: 1;
+	text-align: right;
+	font size: 30px;
+
+}
+.container2 ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	
+
+
+}
+.container2 ul li a{
+	color: yellow;
+	text-decoration: none;
+	font-size: 15px;
+	top: 20%;
+	background: black;
+}
+.container2 ul li ::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: floralwhite;
+   display: block;
+   margin: auto;
+   transition: 0.3s;
+}
